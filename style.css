@@ -13,6 +13,25 @@ html {
   margin: 10%;
 } */
 
+@media (min-width: 500px) and (max-width: 1000px) {
+  body {
+    width: 400px;
+    height: 400px;
+  }
+  .monthly-expense-form {
+    margin: auto auto;
+    width: 100vh;
+    min-height: 40vh;
+  }
+
+  .logo {
+    position: relative;
+    left: 50%;
+    top: 0;
+  }
+}
+
+
 .monthly-expense-form {
   min-width: 100vh;
   min-height: 60vh;
