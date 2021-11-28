@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Calculator App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <link rel="" href="" />
+  <img src="logo3.svg" id="logo" />
+  <body>
+    <div class="larger__wrapper">
+      <h3 id="heading">Expense Calculator App</h3>
+      <div class="form-wrapper">
+        <form class="monthly-expense-form">
+          <label for="" class="entry-tag">Monthly Expense Entry</label>
+          <div>
+            <label for="">Enter date:</label>
+            <input type="date" name="" class="input-form expense-date" />
+          </div>
+
+          <div>
+            <label for="">Enter new item name:</label>
+            <input
+              type="text"
+              name="new-item"
+              class="input-form new-item-name"
+            />
+          </div>
+          <div>
+            <label for="">Price of the item:</label>
+            <input type="number" name="" class="input-form new-item-price" />
+          </div>
+          <button type="submit" class="form-submit-button">Submit</button>
+        </form>
+      </div>
+
+      <div class="display__expenses">
+        <h4>Your Expenses :</h4>
+        <br />
+        <div class="options__container">
+          <select
+            name="years-selector"
+            value="2020"
+            class="select select-years"
+          >
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+          </select>
+
+          <select name="months-selector" class="select select-months">
+            <option value="0">Jan</option>
+            <option value="1">Feb</option>
+            <option value="2">Mar</option>
+            <option value="3">Apri</option>
+            <option value="4">May</option>
+            <option value="5">Jun</option>
+            <option value="6">Jul</option>
+            <option value="7">Aug</option>
+            <option value="8">Sept</option>
+            <option value="9">Oct</option>
+            <option value="10">Nov</option>
+            <option value="11">Dec</option>
+          </select>
+        </div>
+        <div class="expenses__data">
+          <div class="each__expense">
+            <div class="each__expense--date">2021</div>
+            <div class="each__expense--name">DJ Concert</div>
+            <div class="each__expense--price">Rs.2130</div>
+          </div>
+          <div class="total__expenditure">
+            <div class="total--amount">
+              <p>Total Expenditure</p>
+              <p>Rs2130</p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <h4>
+          Use dummy data here. Not for real time use<br />No database used 😕
+        </h4>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  <footer>&copy; Created By : Maibam Maneesana :)</footer>
+</html>
